@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Kilian Protin | Portfolio</title>
 </head>
+
 <body>
 
     <header>
-        <button id="theme-btn" onclick="toggleTheme()">Passer au thème sombre</button>
-        <h1>Kilian Protin</h1>
-        <p>Étudiant Ingénieur à CyTech</p>
+        <div class="header-content">
+            <div>
+                <h1>Kilian Protin</h1>
+                <p class="subtitle">Étudiant Ingénieur à CyTech</p>
+            </div>
+            <button id="theme-btn" onclick="toggleTheme()">Passer au thème sombre</button>
+        </div>
     </header>
 
     <section id="about">
         <h2>À propos</h2>
-        <p>Actuellement en cycle pré-ingénieur à CyTech, je recherche une alternance dans les domaines du Développement Back-End, de la Data / IA ou de la Cybersécurité. Je possède une base solide en programmation générale (C, Python) acquise lors de divers projets scolaires. Je suis motivé par la résolution de problèmes complexes et la création d'architectures robustes.</p>
+        <p>Actuellement en cycle pré-ingénieur à CyTech, je recherche une alternance dans les domaines du Développement
+            Back-End, de la Data / IA ou de la Cybersécurité. Je possède une base solide en programmation générale (C,
+            Python) acquise lors de divers projets scolaires. Je suis motivé par la résolution de problèmes complexes et
+            la création d'architectures robustes.</p>
     </section>
 
     <section id="skills">
         <h2>Compétences Techniques</h2>
         <ul>
-            <li><strong>Langages :</strong> C, Python, SQL</li>
+            <li><strong>Langages :</strong> C, Python, SQL, HTML/CSS</li>
             <li><strong>Concepts :</strong> Algorithmique, Structures de données, Programmation Orientée Objet</li>
             <li><strong>Outils :</strong> Git, GitHub, Environnement Linux</li>
         </ul>
@@ -30,27 +40,33 @@
 
     <section id="projects">
         <h2>Projets Principaux</h2>
-        
-        <div>
-            <h3>Application interactive en C (Filp7)</h3>
-            <p>Développement d'un programme en terminal. Ce projet m'a permis de consolider mes bases en C, notamment sur la gestion de la mémoire, la manipulation des pointeurs et la structuration de la logique algorithmique.</p>
-        </div>
 
-        <div>
+        <a href="https://github.com/kilian-gthb/Filp7-in-terminal" target="_blank" class="project-card">
+            <h3>Application interactive en C (Filp7)</h3>
+            <p>Développement d'un programme en terminal. Ce projet m'a permis de consolider mes bases en C, notamment
+                sur la gestion de la mémoire, la manipulation des pointeurs et la structuration de la logique
+                algorithmique.</p>
+        </a>
+
+        <a href="https://github.com/kilian-gthb/Seven" target="_blank" class="project-card">
             <h3>Programme d'application en Python (Seven)</h3>
-            <p>Création d'une application orientée objet. Ce projet met en pratique la structuration de code en Python, la manipulation de données et la gestion des différents états du programme.</p>
-        </div>
+            <p>Création d'une application orientée objet. Ce projet met en pratique la structuration de code en Python,
+                la manipulation de données et la gestion des différents états du programme.</p>
+        </a>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Je suis activement à la recherche d'une alternance pour la suite de mon cursus. N'hésitez pas à me contacter !</p>
+        <p>Je suis activement à la recherche d'une alternance pour la suite de mon cursus. N'hésitez pas à me contacter
+            !</p>
         <ul>
             <li><strong>Email :</strong> <a href="mailto:kilian.protin@orange.fr">kilian.protin@orange.fr</a></li>
-            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/kilian-protin/">Kilian Protin</a></li>
-            <li><strong>GitHub :</strong> <a href="https://github.com/kilian-gthb">kilian-gthb</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/kilian-protin/" target="_blank">Kilian
+                    Protin</a></li>
+            <li><strong>GitHub :</strong> <a href="https://github.com/kilian-gthb" target="_blank">kilian-gthb</a></li>
         </ul>
     </section>
 
 </body>
+
 </html>
