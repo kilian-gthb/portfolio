@@ -19,7 +19,7 @@
             </div>
             <button id="theme-btn" onclick="toggleTheme()">Passer au thème sombre</button>
         </div>
-        
+
         <nav class="nav-banner">
             <a href="#about">À propos</a>
             <a href="#skills">Compétences</a>
@@ -28,50 +28,72 @@
         </nav>
     </header>
 
-    <section id="about">
-        <h2>À propos</h2>
-        <p>Actuellement en cycle pré-ingénieur à CyTech, je recherche une alternance dans les domaines du Développement
-            Back-End, de la Data / IA ou de la Cybersécurité. Je possède une base solide en programmation générale (C,
-            Python) acquise lors de divers projets scolaires. Je suis motivé par la résolution de problèmes complexes et
-            la création d'architectures robustes.</p>
-    </section>
+    <main>
+        <section id="about">
+            <div class="section-title">
+                <h2>À propos</h2>
+            </div>
+            <div class="section-content">
+                <p>Actuellement en cycle pré-ingénieur à CyTech, je recherche une alternance dans les domaines du
+                    Développement Back-End, de la Data / IA ou de la Cybersécurité. Je possède une base solide en
+                    programmation générale (C, Python) acquise lors de divers projets scolaires. Je suis motivé par la
+                    résolution de problèmes complexes et la création d'architectures robustes.</p>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Compétences Techniques</h2>
-        <ul>
-            <li><strong>Langages :</strong> C, Python, SQL, HTML, CSS</li>
-            <li><strong>Outils :</strong> Git, GitHub, Environnement Linux</li>
-        </ul>
-    </section>
+        <section id="skills">
+            <div class="section-title">
+                <h2>Compétences</h2>
+            </div>
+            <div class="section-content">
+                <div class="skills-category">
+                    <h3>Langages</h3>
+                    <div class="tags">
+                        <span>C</span><span>Python</span><span>SQL</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Outils & Concepts</h3>
+                    <div class="tags">
+                        <span>Git</span><span>GitHub</span><span>Environnement Linux</span><span>Algorithmique</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Projets Principaux</h2>
+        <section id="projects">
+            <div class="section-title">
+                <h2>Projets</h2>
+            </div>
+            <div class="section-content projects-grid">
+                <a href="https://github.com/kilian-gthb/Filp7-in-terminal" target="_blank" class="project-card">
+                    <h3>Application interactive en C (Filp7)</h3>
+                    <p>Développement d'un programme en terminal. Ce projet m'a permis de consolider mes bases en C,
+                        notamment sur la gestion de la mémoire, la manipulation des pointeurs et la structuration de la
+                        logique algorithmique.</p>
+                </a>
+                <a href="https://github.com/kilian-gthb/Seven" target="_blank" class="project-card">
+                    <h3>Programme d'application en Python (Seven)</h3>
+                    <p>Création d'une application orientée objet. Ce projet met en pratique la structuration de code en
+                        Python, la manipulation de données et la gestion des différents états du programme.</p>
+                </a>
+            </div>
+        </section>
 
-        <a href="https://github.com/kilian-gthb/Filp7-in-terminal" target="_blank" class="project-card">
-            <h3>Application interactive en C (Filp7)</h3>
-            <p>Développement d'un programme en terminal. Ce projet m'a permis de consolider mes bases en C, notamment
-                sur la gestion de la mémoire, la manipulation des pointeurs et la structuration de la logique
-                algorithmique.</p>
-        </a>
-
-        <a href="https://github.com/kilian-gthb/Seven" target="_blank" class="project-card">
-            <h3>Programme d'application en Python (Seven)</h3>
-            <p>Création d'une application orientée objet. Ce projet met en pratique la structuration de code en Python,
-                la manipulation de données et la gestion des différents états du programme.</p>
-        </a>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Je suis activement à la recherche d'une alternance pour la suite de mon cursus. N'hésitez pas à me contacter
-            !</p>
-        <ul>
-            <li><strong>Email :</strong> <a href="mailto:kilian.protin@orange.fr">kilian.protin@orange.fr</a></li>
-            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/kilian-protin/" target="_blank">Kilian
-                    Protin</a></li>
-            <li><strong>GitHub :</strong> <a href="https://github.com/kilian-gthb" target="_blank">kilian-gthb</a></li>
-        </ul>
-    </section>
+        <section id="contact">
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="section-content">
+                <p>Je suis activement à la recherche d'une alternance pour la suite de mon cursus. N'hésitez pas à me contacter !</p>
+                <ul>
+                    <li><strong>Email :</strong> <a href="mailto:kilian.protin@orange.fr">kilian.protin@orange.fr</a></li>
+                    <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/kilian-protin/" target="_blank">Kilian Protin</a></li>
+                    <li><strong>GitHub :</strong> <a href="https://github.com/kilian-gthb" target="_blank">kilian-gthb</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
 </body>
 
