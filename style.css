@@ -16,6 +16,9 @@
     --hover-shadow: rgba(255, 255, 255, 0.1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--bg-color);
@@ -84,6 +87,28 @@ button:hover {
     transform: scale(1.05);
 }
 
+.nav-banner {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    flex-wrap: wrap;
+}
+
+.nav-banner a {
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.nav-banner a:hover {
+    background-color: var(--card-bg);
+    text-decoration: none;
+}
+
 
 .project-card {
     display: block;
@@ -118,4 +143,8 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 80px;
 }
