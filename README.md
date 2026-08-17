@@ -2,7 +2,7 @@
 
 > **Étudiant Ingénieur à CyTech** | Recherche d'alternance en Développement Back-End, Data/IA ou Cybersécurité (**Septembre 2027**)  
 > 📍 Mobilité : Cergy-Pontoise, La Défense et Île-de-France (RER A)  
-> 🌐 **Voir le site en ligne :** [https://kilian-gthb.github.io/portfolio/](https://kilian-gthb.github.io/portfolio/)
+> 🌐 **Voir le site en ligne :** <a href="https://kilian-gthb.github.io/portfolio/" target="_blank">https://kilian-gthb.github.io/portfolio/</a>
 
 ---
 

@@ -90,6 +90,7 @@ button {
     font-size: 1.05rem;
 }
 
+/*  NAV BANNER  */
 .nav-banner {
     display: flex;
     gap: 30px;
@@ -152,6 +153,7 @@ section {
     gap: 30px;
 }
 
+/*  PROJECT CARD  */
 .project-card {
     display: block;
     background-color: var(--card-bg);
@@ -181,6 +183,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/*  FOOTER  */
 footer {
     text-align: center;
     padding: 40px 0 20px 0;
