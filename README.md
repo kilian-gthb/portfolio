@@ -1,7 +1,9 @@
 # Portfolio - Kilian Protin
 
-> **Étudiant Ingénieur à CyTech** | Recherche d'alternance en Développement Back-End, Data ou Cybersécurité (Rentrée 2027)
+> **Étudiant Ingénieur à CyTech** | Recherche d'alternance en Développement Back-End, Data/IA ou Cybersécurité (Rentrée 2027)
+
 > 📍 Mobilité : Cergy-Pontoise, La Défense et Île-de-France (RER A)
+
 > 🌐 **Voir le site en ligne :** [https://kilian-gthb.github.io/portfolio/](https://kilian-gthb.github.io/portfolio/)
 
 ---
