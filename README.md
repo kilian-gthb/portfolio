@@ -8,7 +8,7 @@
 
 ## 🎯 Objectif
 
-Ce dépôt contient le code source de mon site portfolio personnel. Il a pour but de démontrer mes compétences techniques naissantes et ma rigueur dans les domaines de l'infrastructure, de la donnée et de la sécurité, loin de l'aspect purement créatif ou graphique.
+Ce dépôt contient le code source de mon site portfolio personnel. Il a pour but de démontrer mes compétences techniques naissantes et ma rigueur dans les domaines du développement, de la donnée et de la sécurité, loin de l'aspect purement créatif ou graphique.
 
 Je suis à la recherche d'une **alternance de 3 ans** au sein d'une grande entreprise (ESN, Secteur défense...) pour approfondir mes compétences en :
 *   **Développement Back-End** (Logique, API)
