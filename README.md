@@ -23,7 +23,7 @@ Ce site est conçu pour être léger, sécurisé et maintenable, reflétant les 
 
 *   **Langages :** HTML, CSS, JavaScript
 *   **Hébergement :** GitHub Pages (HTTPS activé, Déploiement continu via Git)
-*   **Outils :** Git, GitHub
+*   **Outils :** Git, GitHub, VSCode
 
 ---
 
