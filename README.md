@@ -23,7 +23,7 @@ Ce site est conçu pour être léger, sécurisé et maintenable, reflétant les 
 
 *   **Langages :** HTML, CSS, JavaScript
 *   **Hébergement :** GitHub Pages (HTTPS activé, Déploiement continu via Git)
-*   **Outils :** Git, GitHub, VSCode
+*   **Outils :** Git, GitHub, VSCode, GCC
 
 ---
 
@@ -34,4 +34,4 @@ Ce site est conçu pour être léger, sécurisé et maintenable, reflétant les 
 *   **École :** CyTech, Cergy-Pontoise
 
 ---
-*Ce dépôt est maintenu à jour. Dernière mise à jour : Août 2026.*
+*Ce dépôt est maintenu à jour. Dernière mise à jour : Octobre 2026.*
